@@ -1,0 +1,42 @@
+# ----- IDEs -----
+# JetBrains (PyCharm/IntelliJ) project settings
+.idea/
+*.iml
+# VS Code (اگر گاهی با VSCode باز می‌کنی)
+.vscode/
+
+# ----- Python -----
+# Compiled/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (اسم پوشه venv یا .venv یا env هرکدام بود)
+venv/
+.venv/
+env/
+
+# Test / coverage artifacts (اگر بعداً تست اضافه کردی)
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Build/dist (اگر بسته‌سازی کردی)
+build/
+dist/
+*.egg-info/
+
+# Jupyter (اگر نوت‌بوک داشتی)
+.ipynb_checkpoints/
+
+# ----- OS junk -----
+.DS_Store
+Thumbs.db
+
+# ----- Logs -----
+*.log
+
+# ----- Project-specific -----
+# هیچ‌کدوم از فایل‌های اصلی مثل README.md و
+# فایل‌های داخل "100 Days of Code" نادیده گرفته نمی‌شن.
